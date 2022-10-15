@@ -134,5 +134,8 @@ RECAPTCHA_KEY = config('RECAPTCHA_KEY')
 
 RECAPTCHA_SECRET_KEY = config('RECAPTCHA_SECRET_KEY')
 
+LOGIN_URL = "users:sign-in"
+LOGIN_REDIRECT_URL = "users:account"
+LOGOUT_REDIRECT_URL = "users:sign-in"
 
 
